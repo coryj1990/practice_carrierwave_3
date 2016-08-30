@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'dotenv-rails', :groups => [:development, :test]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7'
 # Use postgresql as the database for Active Record
@@ -47,3 +47,4 @@ end
 
 gem 'carrierwave'
 gem 'fog'
+gem 'dotenv'
