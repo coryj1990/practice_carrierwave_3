@@ -45,7 +45,7 @@ group :development do
   gem 'spring'
 end
 
-
+gem 'pry'
 gem 'carrierwave'
 gem 'fog'
 gem 'dotenv'
